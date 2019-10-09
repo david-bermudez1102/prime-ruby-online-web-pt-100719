@@ -7,7 +7,7 @@ def prime?(number)
           counter += 1
         end
     }
-    if(counter == 2 || number==1)
+    if(counter == 2)
       true
     else
       false
