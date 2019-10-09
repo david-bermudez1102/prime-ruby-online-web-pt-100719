@@ -5,5 +5,6 @@ def prime?(number)
       number%e == 0 && (number!=1)
     end
   }
+  binding.pry
   is_a_prime
 end
