@@ -3,7 +3,7 @@ def prime?(number)
   if(number!=0 || number!=1)
     temp_array = (0..number).to_a - [0]
     temp_array.all? { |e|
-        number%e
+        number%e == 0
     }
   else
     false
