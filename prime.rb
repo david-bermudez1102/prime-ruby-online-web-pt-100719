@@ -2,7 +2,7 @@ def prime?(number)
   number = number.abs
   if(number!=1)
     temp_array = (0..number).to_a - [0]
-    temp_array.all? { |e|
+    temp_array.each { |e|
         number%e == 0
     }
   else
