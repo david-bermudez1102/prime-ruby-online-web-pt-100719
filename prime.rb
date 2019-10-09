@@ -5,6 +5,7 @@ def prime?(number)
     is_a_prime = temp_array.all? { |e|
         number%e == 0
     }
+    is_a_prime
   else
     false
   end
