@@ -1,5 +1,5 @@
 def prime?(number)
-  temp_array = (1..number).to_a
+  temp_array = (-(number)..number).to_a
   is_a_prime = temp_array.any? { |e|
     number%e == 0
   }
