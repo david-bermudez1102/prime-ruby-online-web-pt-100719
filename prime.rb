@@ -1,6 +1,6 @@
 def prime?(number)
   number = number.abs
-  if(number!=1)
+  if(number!=0)
     temp_array = (0..number).to_a - [0]
     counter = 0
     temp_array.each { |e|
