@@ -1,6 +1,7 @@
 def prime?(number)
-  if(number!=0 || number!=1 || number!=(-1))
-    temp_array = (0..number.abs).to_a - [0]
+  number = number.abs
+  if(number!=0 || number!=1)
+    temp_array = (0..number).to_a - [0]
     temp_array.each { |e|
         puts number%e
     }
