@@ -4,8 +4,6 @@ def prime?(number)
     temp_array.each? { |e|
         puts number%e == 0
     }
-
-    is_a_prime
   else
     false
   end
